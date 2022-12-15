@@ -12,9 +12,6 @@ console logs are limited to just the few files matching (instead of all of them)
 
 usage:  
 
-- `node.exe index.js "folder"`  
-- or `index.cmd "folder1" "folder2" "folder3" ....`  (folders handling is done one after the other).  
+- `node.exe index.js "folder1" "folder2" "folder3" ....`  
+- or `index.cmd "folder1" "folder2" "folder3" ....`  
 
-the NodeJS script can handle one folder,  
-the batch file can handle any amount of folders (usually Windows limited the arguments to about 30),  
-which it processes one by one
